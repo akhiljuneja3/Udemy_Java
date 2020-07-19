@@ -12,7 +12,7 @@ class FirstFile {
         long startTime = System.nanoTime();
         for(int i=0;i<array.length;i++){
             if(array[i] == "nemo"){
-                //break;
+                break;
             }
         }
         System.out.println("It took " + (System.nanoTime() - startTime) + " nano seconds to find Nemo.");
